@@ -379,7 +379,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 except:
                     pass
             else:
-                await query.answer("Tʜᴀᴛ's ɴᴏᴛ ғᴏʀ ʏᴏᴜ!!", show_alert=True)
+                await query.answer("❌ Tʜᴀᴛ Is Nᴏᴛ Fᴏʀ Yᴏᴜ Sɪʀ ⛔️\n\n ❇️ Rᴇǫᴜᴇsᴛ Yᴏᴜʀ Fɪʟᴇ ❇️", show_alert=True)
     elif "groupcb" in query.data:
         await query.answer()
 
@@ -591,7 +591,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
     elif query.data.startswith("checksub"):
         if AUTH_CHANNEL and not await is_subscribed(client, query):
-            await query.answer("Jᴏɪɴ ᴏᴜʀ Bᴀᴄᴋ-ᴜᴘ ᴄʜᴀɴɴᴇʟ ᴍᴀʜɴ! 😒", show_alert=True)
+            await query.answer("Jᴏɪɴ ᴏᴜʀ Bᴀᴄᴋ-ᴜᴘ ᴄʜᴀɴɴᴇʟ ᴍᴀʜɴ!", show_alert=True)
             return
         ident, file_id = query.data.split("#")
         files_ = await get_file_details(file_id)
@@ -962,7 +962,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('🎭 ɢʀᴏᴜᴘ', url=f'https://t.me/HD_REquest'),
                     InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ', switch_inline_query_current_chat='')
                 ],[
-                    InlineKeyboardButton('🍀ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ 🍀', url=f'https://t.me/HDMaxx')
+                    InlineKeyboardButton('🍀 ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ 🍀', url=f'https://t.me/HDMaxx')
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1001,7 +1001,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "global_filters":
         buttons = [[
-            InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='filters')
+            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='filters')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
