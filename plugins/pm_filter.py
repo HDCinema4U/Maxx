@@ -959,7 +959,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🎭 ɢʀᴏᴜᴘ', url=f'https://t.me/Maxx_REquest'),
+                    InlineKeyboardButton('🎭 ɢʀᴏᴜᴘ', url=f'https://t.me/HD_REquest'),
                     InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ', switch_inline_query_current_chat='')
                 ],[
                     InlineKeyboardButton('🍀ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ 🍀', url=f'https://t.me/HDMaxx')
