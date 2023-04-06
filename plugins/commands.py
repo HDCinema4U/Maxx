@@ -27,7 +27,7 @@ async def start(client, message):
                     InlineKeyboardButton('🎭 ɢʀᴏᴜᴘ', url=f'https://t.me/HD_REquest'),
                     InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ', switch_inline_query_current_chat='')
                 ],[
-                    InlineKeyboardButton('🍀ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ 🍀', url=f'https://t.me/HDMaxx')
+                    InlineKeyboardButton('🍀 ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ 🍀', url=f'https://t.me/HDMaxx')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
@@ -47,7 +47,7 @@ async def start(client, message):
                     InlineKeyboardButton('🎭 ɢʀᴏᴜᴘ', url=f'https://t.me/HD_REquest'),
                     InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ', switch_inline_query_current_chat='')
                 ],[
-                    InlineKeyboardButton('🍀ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ 🍀', url=f'https://t.me/HDMaxx')
+                    InlineKeyboardButton('🍀 ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ 🍀', url=f'https://t.me/HDMaxx')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -92,7 +92,7 @@ async def start(client, message):
                     InlineKeyboardButton('🎭 ɢʀᴏᴜᴘ', url=f'https://t.me/HD_REquest'),
                     InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ', switch_inline_query_current_chat='')
                 ],[
-                    InlineKeyboardButton('🍀ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ 🍀', url=f'https://t.me/HDMaxx')
+                    InlineKeyboardButton('🍀 ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ 🍀', url=f'https://t.me/HDMaxx')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -596,8 +596,8 @@ async def settings(client, message):
         ]
 
         btn = [[
-                InlineKeyboardButton("Oᴘᴇɴ Hᴇʀᴇ ↓", callback_data=f"opnsetgrp#{grp_id}"),
-                InlineKeyboardButton("Oᴘᴇɴ Iɴ PM ⇲", callback_data=f"opnsetpm#{grp_id}")
+                InlineKeyboardButton("Oᴘᴇɴ Hᴇʀᴇ", callback_data=f"opnsetgrp#{grp_id}"),
+                InlineKeyboardButton("Oᴘᴇɴ Iɴ PM", callback_data=f"opnsetpm#{grp_id}")
               ]]
 
         reply_markup = InlineKeyboardMarkup(buttons)
