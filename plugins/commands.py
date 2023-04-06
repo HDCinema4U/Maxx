@@ -146,7 +146,7 @@ async def start(client, message):
                           InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK),
                           InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
                        ],[
-                          InlineKeyboardButton("ʀᴜʟᴇs", url="t.me/creatorbeatz")
+                          InlineKeyboardButton("ʀᴜʟᴇs", url="http://t.me/MissRose_bot?start=rules_-878841475")
                          ]
                         ]
                     )
@@ -165,7 +165,7 @@ async def start(client, message):
                           InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK),
                           InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
                        ],[
-                          InlineKeyboardButton("ʀᴜʟᴇs", url="t.me/creatorbeatz")
+                          InlineKeyboardButton("ʀᴜʟᴇs", url="http://t.me/MissRose_bot?start=rules_-878841475")
                          ]
                         ]
                     )
@@ -266,7 +266,7 @@ async def start(client, message):
                           InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK),
                           InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
                        ],[
-                          InlineKeyboardButton("ʀᴜʟᴇs", url="t.me/creatorbeatz")
+                          InlineKeyboardButton("ʀᴜʟᴇs", url="http://t.me/MissRose_bot?start=rules_-878841475")
                          ]
                         ]
                     )
@@ -319,7 +319,7 @@ async def start(client, message):
                           InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK),
                           InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
                        ],[
-                          InlineKeyboardButton("ʀᴜʟᴇs", url="t.me/creatorbeatz")
+                          InlineKeyboardButton("ʀᴜʟᴇs", url="http://t.me/MissRose_bot?start=rules_-878841475")
                          ]
                         ]
                     )
