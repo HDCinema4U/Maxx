@@ -955,12 +955,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-                    InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🎭 ɢʀᴏᴜᴘ', url=f'https://t.me/HD_REquest'),
-                    InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ', switch_inline_query_current_chat='')
+                    InlineKeyboardButton('🎭 Gʀᴏᴜᴘ 🎭', url=f'https://t.me/HD_REquest'),
+                    InlineKeyboardButton('⚒ Cʜᴀɴɴᴇʟ ⚒', url=f'https://t.me/HDMaxx')
                 ],[
-                    InlineKeyboardButton('🍀 ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ 🍀', url=f'https://t.me/HDMaxx')
+                    InlineKeyboardButton('☀️ Jᴏɪɴ Tʜɪs Cʜᴀɴɴᴇʟ Tᴏ Usᴇ Mᴇ ☀️', url=f'https://t.me/HDMaxx')
+                ],[
+                    InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ Mᴏᴠɪᴇ 🔍', switch_inline_query_current_chat='')
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
