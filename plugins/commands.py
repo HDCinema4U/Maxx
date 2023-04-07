@@ -27,7 +27,7 @@ async def start(client, message):
                     InlineKeyboardButton('🎭 Gʀᴏᴜᴘ 🎭', url=f'https://t.me/HD_REquest'),
                     InlineKeyboardButton('⚒ Cʜᴀɴɴᴇʟ ⚒', url=f'https://t.me/HDMaxx')
                 ],[
-                    InlineKeyboardButton('🍀 ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ 🍀', url=f'https://t.me/HDMaxx')
+                    InlineKeyboardButton('☀️ Jᴏɪɴ Tʜɪs Cʜᴀɴɴᴇʟ Tᴏ Usᴇ Mᴇ ☀️', url=f'https://t.me/HDMaxx')
                 ],[
                     InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ Mᴏᴠɪᴇ 🔍', switch_inline_query_current_chat='')
                   ]]
@@ -49,7 +49,7 @@ async def start(client, message):
                     InlineKeyboardButton('🎭 Gʀᴏᴜᴘ 🎭', url=f'https://t.me/HD_REquest'),
                     InlineKeyboardButton('⚒ Cʜᴀɴɴᴇʟ ⚒', url=f'https://t.me/HDMaxx')
                 ],[
-                    InlineKeyboardButton('🍀 ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ 🍀', url=f'https://t.me/HDMaxx')
+                    InlineKeyboardButton('☀️ Jᴏɪɴ Tʜɪs Cʜᴀɴɴᴇʟ Tᴏ Usᴇ Mᴇ ☀️', url=f'https://t.me/HDMaxx')
                 ],[
                     InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ Mᴏᴠɪᴇ 🔍', switch_inline_query_current_chat='')
                   ]]
@@ -96,7 +96,7 @@ async def start(client, message):
                     InlineKeyboardButton('🎭 Gʀᴏᴜᴘ 🎭', url=f'https://t.me/HD_REquest'),
                     InlineKeyboardButton('⚒ Cʜᴀɴɴᴇʟ ⚒', url=f'https://t.me/HDMaxx')
                 ],[
-                    InlineKeyboardButton('🍀 ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ 🍀', url=f'https://t.me/HDMaxx')
+                    InlineKeyboardButton('☀️ Jᴏɪɴ Tʜɪs Cʜᴀɴɴᴇʟ Tᴏ Usᴇ Mᴇ ☀️', url=f'https://t.me/HDMaxx')
                 ],[
                     InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ Mᴏᴠɪᴇ 🔍', switch_inline_query_current_chat='')
                   ]]
@@ -149,10 +149,9 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK),
-                          InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                          InlineKeyboardButton('Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ', url=GRP_LNK)
                        ],[
-                          InlineKeyboardButton("ʀᴜʟᴇs", url="http://t.me/MissRose_bot?start=rules_-878841475")
+                          InlineKeyboardButton(" Cʜᴀɴɴᴇʟ ⚒", url=CHNL_LNK)
                          ]
                         ]
                     )
@@ -168,10 +167,9 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK),
-                          InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                          InlineKeyboardButton('Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ', url=GRP_LNK)
                        ],[
-                          InlineKeyboardButton("ʀᴜʟᴇs", url="http://t.me/MissRose_bot?start=rules_-878841475")
+                          InlineKeyboardButton(" Cʜᴀɴɴᴇʟ ⚒", url=CHNL_LNK)
                          ]
                         ]
                     )
@@ -269,10 +267,9 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                          [
-                          InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK),
-                          InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                          InlineKeyboardButton('Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ', url=GRP_LNK)
                        ],[
-                          InlineKeyboardButton("ʀᴜʟᴇs", url="http://t.me/MissRose_bot?start=rules_-878841475")
+                          InlineKeyboardButton(" Cʜᴀɴɴᴇʟ ⚒", url=CHNL_LNK)
                          ]
                         ]
                     )
@@ -322,10 +319,9 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                          [
-                          InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK),
-                          InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                          InlineKeyboardButton('Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ', url=GRP_LNK)
                        ],[
-                          InlineKeyboardButton("ʀᴜʟᴇs", url="http://t.me/MissRose_bot?start=rules_-878841475")
+                          InlineKeyboardButton(" Cʜᴀɴɴᴇʟ ⚒", url=CHNL_LNK)
                          ]
                         ]
                     )
