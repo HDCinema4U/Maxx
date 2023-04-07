@@ -578,7 +578,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
                          ]
                         ]
                     )
-                )
                 else:
                     await query.answer(f"😎 Hᴇʏ {query.from_user.first_name}, ❌ Tʜᴀᴛ Is Nᴏᴛ Fᴏʀ Yᴏᴜ Sɪʀ ⛔️\n\n ❇️ Rᴇǫᴜᴇsᴛ Yᴏᴜʀ Fɪʟᴇ ❇️", show_alert=True)
                 await query.answer('Cʜᴇᴄᴋ Bᴏᴛ, I ʜᴀᴠᴇ sᴇɴᴛ ғɪʟᴇs ɪɴ Bᴏᴛ', show_alert=True)
