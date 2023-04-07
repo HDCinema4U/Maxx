@@ -572,7 +572,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         reply_markup=InlineKeyboardMarkup(
                             [
                              [
-                              InlineKeyboardButton('Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
+                               InlineKeyboardButton('Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ', url=GRP_LNK)
                            ],[
                               InlineKeyboardButton("Cʜᴀɴɴᴇʟ ", url="t.me/hdmaxx")
                              ]
@@ -618,14 +618,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
             protect_content=True if ident == 'checksubp' else False,
             reply_markup=InlineKeyboardMarkup(
                 [
-                             [
-                              InlineKeyboardButton('Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                           ],[
-                              InlineKeyboardButton("Cʜᴀɴɴᴇʟ ", url="t.me/hdmaxx")
-                             ]
-                            ]
-                        )
-                    )
+                 [
+                   InlineKeyboardButton('Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ', url=GRP_LNK)
+               ],[
+                  InlineKeyboardButton("Cʜᴀɴɴᴇʟ ", url="t.me/hdmaxx")
+                 ]
+                ]
+            )
+        )
     elif query.data == "pages":
         await query.answer()
 
