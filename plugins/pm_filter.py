@@ -555,13 +555,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
                     return
                 else:
-                    await query.answer(f"Hᴇʏ {query.from_user.first_name}, Tʜɪs Is Nᴏᴛ Yᴏᴜʀ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ. Rᴇǫᴜᴇsᴛ Yᴏᴜʀ's !", show_alert=True)
+                    await query.answer(f"😎 Hᴇʏ {query.from_user.first_name}, ❌ Tʜᴀᴛ Is Nᴏᴛ Fᴏʀ Yᴏᴜ Sɪʀ ⛔️\n\n ❇️ Rᴇǫᴜᴇsᴛ Yᴏᴜʀ Fɪʟᴇ ❇️", show_alert=True)
             elif settings['botpm']:
                 if clicked == typed:
                     await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
                     return
                 else:
-                    await query.answer(f"Hᴇʏ {query.from_user.first_name}, Tʜɪs Is Nᴏᴛ Yᴏᴜʀ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ. Rᴇǫᴜᴇsᴛ Yᴏᴜʀ's !", show_alert=True)
+                    await query.answer(f"😎 Hᴇʏ {query.from_user.first_name}, ❌ Tʜᴀᴛ Is Nᴏᴛ Fᴏʀ Yᴏᴜ Sɪʀ ⛔️\n\n ❇️ Rᴇǫᴜᴇsᴛ Yᴏᴜʀ Fɪʟᴇ ❇️", show_alert=True)
             else:
                 if clicked == typed:
                     await client.send_cached_media(
@@ -570,18 +570,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         caption=f_caption,
                         protect_content=True if ident == "filep" else False,
                         reply_markup=InlineKeyboardMarkup(
-                            [
-                             [
-                              InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK),
-                              InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                           ],[
-                              InlineKeyboardButton("ʀᴜʟᴇs", url="http://t.me/MissRose_bot?start=rules_-878841475")
-                             ]
-                            ]
-                        )
+                            [[
+                         [
+                          InlineKeyboardButton('Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ', url=GRP_LNK)
+                       ],[
+                          InlineKeyboardButton(" Cʜᴀɴɴᴇʟ ⚒", url=CHNL_LNK)
+                         ]
+                        ]
                     )
+                )
                 else:
-                    await query.answer(f"Hᴇʏ {query.from_user.first_name}, Tʜɪs Is Nᴏᴛ Yᴏᴜʀ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ. Rᴇǫᴜᴇsᴛ Yᴏᴜʀ's !", show_alert=True)
+                    await query.answer(f"😎 Hᴇʏ {query.from_user.first_name}, ❌ Tʜᴀᴛ Is Nᴏᴛ Fᴏʀ Yᴏᴜ Sɪʀ ⛔️\n\n ❇️ Rᴇǫᴜᴇsᴛ Yᴏᴜʀ Fɪʟᴇ ❇️", show_alert=True)
                 await query.answer('Cʜᴇᴄᴋ Bᴏᴛ, I ʜᴀᴠᴇ sᴇɴᴛ ғɪʟᴇs ɪɴ Bᴏᴛ', show_alert=True)
         except UserIsBlocked:
             await query.answer('Uɴʙʟᴏᴄᴋ ᴛʜᴇ ʙᴏᴛ ᴍᴀʜɴ !', show_alert=True)
@@ -618,16 +617,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             caption=f_caption,
             protect_content=True if ident == 'checksubp' else False,
             reply_markup=InlineKeyboardMarkup(
-                [
-                 [
-                  InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK),
-                  InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
-               ],[
-                  InlineKeyboardButton("ʀᴜʟᴇs", url="http://t.me/MissRose_bot?start=rules_-878841475")
-                 ]
-                ]
-            )
-        )
+                [[
+                         [
+                          InlineKeyboardButton('Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ', url=GRP_LNK)
+                       ],[
+                          InlineKeyboardButton(" Cʜᴀɴɴᴇʟ ⚒", url=CHNL_LNK)
+                         ]
+                        ]
+                    )
+                )
     elif query.data == "pages":
         await query.answer()
 
