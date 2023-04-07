@@ -1599,7 +1599,6 @@ async def auto_filter(client, msg, spoll=False):
     if spoll:
         await msg.message.delete()
 
-
 async def advantage_spell_chok(client, msg):
     mv_id = msg.id
     mv_rqst = msg.text
