@@ -570,13 +570,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         caption=f_caption,
                         protect_content=True if ident == "filep" else False,
                         reply_markup=InlineKeyboardMarkup(
-                            [[
-                         [
-                          InlineKeyboardButton('Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ', url=GRP_LNK)
-                       ],[
-                          InlineKeyboardButton(" Cʜᴀɴɴᴇʟ ⚒", url=CHNL_LNK)
-                         ]
-                        ]
+                            [
+                             [
+                              InlineKeyboardButton('Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
+                           ],[
+                              InlineKeyboardButton("Cʜᴀɴɴᴇʟ ", url="t.me/hdmaxx")
+                             ]
+                            ]
+                        )
                     )
                 else:
                     await query.answer(f"😎 Hᴇʏ {query.from_user.first_name}, ❌ Tʜᴀᴛ Is Nᴏᴛ Fᴏʀ Yᴏᴜ Sɪʀ ⛔️\n\n ❇️ Rᴇǫᴜᴇsᴛ Yᴏᴜʀ Fɪʟᴇ ❇️", show_alert=True)
