@@ -555,13 +555,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
                     return
                 else:
-                    await query.answer(f"😎 Hᴇʏ {query.from_user.first_name}, ❌ Tʜᴀᴛ Is Nᴏᴛ Fᴏʀ Yᴏᴜ Sɪʀ ⛔️\n\n ❇️ Rᴇǫᴜᴇsᴛ Yᴏᴜʀ Fɪʟᴇ ❇️", show_alert=True)
+                    await query.answer(f"😎 Hᴇʏ {query.from_user.first_name},\n\n ❌ Tʜᴀᴛ Is Nᴏᴛ Fᴏʀ Yᴏᴜ Sɪʀ ⛔️\n\n ❇️ Rᴇǫᴜᴇsᴛ Yᴏᴜʀ Fɪʟᴇ ❇️", show_alert=True)
             elif settings['botpm']:
                 if clicked == typed:
                     await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
                     return
                 else:
-                    await query.answer(f"😎 Hᴇʏ {query.from_user.first_name}, ❌ Tʜᴀᴛ Is Nᴏᴛ Fᴏʀ Yᴏᴜ Sɪʀ ⛔️\n\n ❇️ Rᴇǫᴜᴇsᴛ Yᴏᴜʀ Fɪʟᴇ ❇️", show_alert=True)
+                    await query.answer(f"😎 Hᴇʏ {query.from_user.first_name},\n\n ❌ Tʜᴀᴛ Is Nᴏᴛ Fᴏʀ Yᴏᴜ Sɪʀ ⛔️\n\n ❇️ Rᴇǫᴜᴇsᴛ Yᴏᴜʀ Fɪʟᴇ ❇️", show_alert=True)
             else:
                 if clicked == typed:
                     await client.send_cached_media(
@@ -580,7 +580,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         )
                     )
                 else:
-                    await query.answer(f"😎 Hᴇʏ {query.from_user.first_name}, ❌ Tʜᴀᴛ Is Nᴏᴛ Fᴏʀ Yᴏᴜ Sɪʀ ⛔️\n\n ❇️ Rᴇǫᴜᴇsᴛ Yᴏᴜʀ Fɪʟᴇ ❇️", show_alert=True)
+                    await query.answer(f"😎 Hᴇʏ {query.from_user.first_name},\n\n ❌ Tʜᴀᴛ Is Nᴏᴛ Fᴏʀ Yᴏᴜ Sɪʀ ⛔️\n\n ❇️ Rᴇǫᴜᴇsᴛ Yᴏᴜʀ Fɪʟᴇ ❇️", show_alert=True)
                 await query.answer('Cʜᴇᴄᴋ Bᴏᴛ, I ʜᴀᴠᴇ sᴇɴᴛ ғɪʟᴇs ɪɴ Bᴏᴛ', show_alert=True)
         except UserIsBlocked:
             await query.answer('Uɴʙʟᴏᴄᴋ ᴛʜᴇ ʙᴏᴛ ᴍᴀʜɴ !', show_alert=True)
